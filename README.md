@@ -40,3 +40,6 @@ Thiết kế một hệ thống nhằm tự động hoá tối đa các quy trì
 - Tìm kiếm và xem thông tin báo cáo (báo cáo cũ và hiện tại).
 - Sửa thông tin báo cáo.
 - Xóa báo cáo.
+## Các biểu đồ liên quan
+### [1.  Biểu đồ use case:] [QuanLyKTXUseCase.drawio.png]
+### [2.  Biểu đồ lớp] [QuanLyKTXClassDiagram.drawio.png]
