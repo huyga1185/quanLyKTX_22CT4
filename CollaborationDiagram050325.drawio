@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="Page-1" id="FmIGBg84QRiCbfud3P6u">
-    <mxGraphModel dx="733" dy="1501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="765" dy="1518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -159,6 +159,111 @@
         </mxCell>
         <mxCell id="CPUTEz3y_prOQRJcTDRX-37" value="12.quẹt thẻ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="270" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CPUTEz3y_prOQRJcTDRX-38" value="Sinh viên" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="-150" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CPUTEz3y_prOQRJcTDRX-39" value=":FormDKHoc&lt;br&gt;Phan" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="-160" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CPUTEz3y_prOQRJcTDRX-40" value=":Controller&lt;br&gt;dklophoc&lt;br&gt;phan" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1805" y="10" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CPUTEz3y_prOQRJcTDRX-41" value="db_lophoc&lt;br&gt;phan" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CPUTEz3y_prOQRJcTDRX-42" value="db_dslophoc&lt;br&gt;phan" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2100" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CPUTEz3y_prOQRJcTDRX-43" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="CPUTEz3y_prOQRJcTDRX-38" target="CPUTEz3y_prOQRJcTDRX-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1760" y="10" as="sourcePoint" />
+            <mxPoint x="1810" y="-40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPUTEz3y_prOQRJcTDRX-44" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="CPUTEz3y_prOQRJcTDRX-40" target="CPUTEz3y_prOQRJcTDRX-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1620" y="12" as="sourcePoint" />
+            <mxPoint x="1800" y="-83" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPUTEz3y_prOQRJcTDRX-45" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="CPUTEz3y_prOQRJcTDRX-41" target="CPUTEz3y_prOQRJcTDRX-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2025" y="10" as="sourcePoint" />
+            <mxPoint x="1900" y="-76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPUTEz3y_prOQRJcTDRX-46" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="CPUTEz3y_prOQRJcTDRX-42" target="CPUTEz3y_prOQRJcTDRX-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1596" y="192" as="sourcePoint" />
+            <mxPoint x="1818" y="76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPUTEz3y_prOQRJcTDRX-47" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1630" y="-140" as="sourcePoint" />
+            <mxPoint x="1750" y="-140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPUTEz3y_prOQRJcTDRX-48" value="1.Đăng nhập &amp;amp; mở form" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="-180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CPUTEz3y_prOQRJcTDRX-49" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1860" y="-70" as="sourcePoint" />
+            <mxPoint x="1860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPUTEz3y_prOQRJcTDRX-50" value="2.Gửi mssv đên controller" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1870" y="-50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CPUTEz3y_prOQRJcTDRX-52" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1750" y="70" as="sourcePoint" />
+            <mxPoint x="1600" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPUTEz3y_prOQRJcTDRX-53" value="3.Lấy tt lớp học phần dựa theo năm và ngành" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CPUTEz3y_prOQRJcTDRX-54" value="4.Trả về ds lớp học&lt;br&gt;phần" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1640" y="200" as="sourcePoint" />
+            <mxPoint x="1790" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPUTEz3y_prOQRJcTDRX-55" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1930" y="60" as="sourcePoint" />
+            <mxPoint x="2090" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPUTEz3y_prOQRJcTDRX-56" value="5.Lấy danh sách lớp học phần đã đăng ký theo năm" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2010" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CPUTEz3y_prOQRJcTDRX-58" value="6.Trả về ds lớp học phần&lt;br&gt;đã đăng ký" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0003" relative="1" as="geometry">
+            <mxPoint x="2060" y="210" as="sourcePoint" />
+            <mxPoint x="1890" y="130" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPUTEz3y_prOQRJcTDRX-60" value="8.Lọc ds lớp học&lt;br&gt;phần chưa đăng ký" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="CPUTEz3y_prOQRJcTDRX-40" parent="1" source="CPUTEz3y_prOQRJcTDRX-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1800" y="150" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1830" y="180" />
+              <mxPoint x="1850" y="180" />
+            </Array>
+            <mxPoint x="1805" y="180.00000000000023" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPUTEz3y_prOQRJcTDRX-61" value="9.Hiển thị&lt;br&gt;ds lớp học phần&lt;br&gt;có thể đk" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0003" relative="1" as="geometry">
+            <mxPoint x="1805" as="sourcePoint" />
+            <mxPoint x="1805" y="-70" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
