@@ -23,10 +23,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CPUTEz3y_prOQRJcTDRX-5" value="1. Đặt đơn" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="295" y="50" width="80" height="30" as="geometry" />
+          <mxGeometry x="310" y="50" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CPUTEz3y_prOQRJcTDRX-6" value=":formtaodon" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="770" y="140" width="100" height="80" as="geometry" />
+          <mxGeometry x="910" y="120" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CPUTEz3y_prOQRJcTDRX-7" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="CPUTEz3y_prOQRJcTDRX-6" target="CPUTEz3y_prOQRJcTDRX-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -36,18 +36,18 @@
         </mxCell>
         <mxCell id="CPUTEz3y_prOQRJcTDRX-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="630" y="50" as="sourcePoint" />
-            <mxPoint x="700" y="90" as="targetPoint" />
+            <mxPoint x="680" y="50" as="sourcePoint" />
+            <mxPoint x="780" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CPUTEz3y_prOQRJcTDRX-10" value="2.Nhập tt đơn" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="655" y="40" width="100" height="30" as="geometry" />
+          <mxGeometry x="690" y="20" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CPUTEz3y_prOQRJcTDRX-11" value=":Đầu quẹt thẻ" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="785" y="-60" width="70" height="80" as="geometry" />
+        <mxCell id="CPUTEz3y_prOQRJcTDRX-11" value=":Đầu quẹt thẻ tại&amp;nbsp;&lt;br&gt;quầy" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="175" width="70" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CPUTEz3y_prOQRJcTDRX-12" value="Control&lt;br&gt;quanly" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="250" width="70" height="80" as="geometry" />
+          <mxGeometry x="490" y="330" width="70" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CPUTEz3y_prOQRJcTDRX-13" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="CPUTEz3y_prOQRJcTDRX-6" target="CPUTEz3y_prOQRJcTDRX-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -56,12 +56,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CPUTEz3y_prOQRJcTDRX-14" value="3.Gửi tt đến controller" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="530" y="190" width="140" height="30" as="geometry" />
+          <mxGeometry x="590" y="225" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CPUTEz3y_prOQRJcTDRX-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="690" y="200" as="sourcePoint" />
-            <mxPoint x="590" y="240" as="targetPoint" />
+            <mxPoint x="750" y="240" as="sourcePoint" />
+            <mxPoint x="650" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CPUTEz3y_prOQRJcTDRX-16" value="donhang" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -75,14 +75,14 @@
         </mxCell>
         <mxCell id="CPUTEz3y_prOQRJcTDRX-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="470" y="290" as="sourcePoint" />
-            <mxPoint x="380" y="330" as="targetPoint" />
+            <mxPoint x="480" y="360" as="sourcePoint" />
+            <mxPoint x="380" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CPUTEz3y_prOQRJcTDRX-19" value="4.Lưu tt đơn hàng" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="340" y="275" width="120" height="30" as="geometry" />
+          <mxGeometry x="370" y="330" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CPUTEz3y_prOQRJcTDRX-20" value="Cấp thẻ" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="CPUTEz3y_prOQRJcTDRX-20" value="11.Cấp thẻ" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="450" y="100" as="sourcePoint" />
             <mxPoint x="345" y="160" as="targetPoint" />
@@ -90,15 +90,75 @@
         </mxCell>
         <mxCell id="CPUTEz3y_prOQRJcTDRX-21" value="5.Trả về kq" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="410" y="380" as="sourcePoint" />
-            <mxPoint x="500" y="340" as="targetPoint" />
+            <mxPoint x="380" y="400" as="sourcePoint" />
+            <mxPoint x="470" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CPUTEz3y_prOQRJcTDRX-22" value="6.Yêu cầu nv tạo thẻ" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="CPUTEz3y_prOQRJcTDRX-22" value="7.Yêu cầu nv quẹt thẻ" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="640" y="290" as="sourcePoint" />
-            <mxPoint x="730" y="250" as="targetPoint" />
+            <mxPoint x="710" y="330" as="sourcePoint" />
+            <mxPoint x="800" y="290" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="CPUTEz3y_prOQRJcTDRX-24" value="8.Yêu cầu trả về tt thẻ" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="130" as="sourcePoint" />
+            <mxPoint x="610" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPUTEz3y_prOQRJcTDRX-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="514.17" y="305" as="sourcePoint" />
+            <mxPoint x="514.17" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPUTEz3y_prOQRJcTDRX-26" value="6.Gửi tt đến đầu quẹt" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="280" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CPUTEz3y_prOQRJcTDRX-28" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="CPUTEz3y_prOQRJcTDRX-11" target="CPUTEz3y_prOQRJcTDRX-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="209" as="sourcePoint" />
+            <mxPoint x="578" y="287" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPUTEz3y_prOQRJcTDRX-29" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="CPUTEz3y_prOQRJcTDRX-2" target="CPUTEz3y_prOQRJcTDRX-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="209" as="sourcePoint" />
+            <mxPoint x="578" y="287" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPUTEz3y_prOQRJcTDRX-30" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="90" as="sourcePoint" />
+            <mxPoint x="540" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPUTEz3y_prOQRJcTDRX-31" value="9.Nhân viên quẹt thẻ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="545" y="120" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CPUTEz3y_prOQRJcTDRX-32" value="10 Ghi&amp;nbsp;&lt;br&gt;mã đơn&lt;br&gt;vào thẻ" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="170" as="sourcePoint" />
+            <mxPoint x="500" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPUTEz3y_prOQRJcTDRX-33" value=":Đầu quẹt thẻ tại&amp;nbsp;&lt;br&gt;quầy" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="-140" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CPUTEz3y_prOQRJcTDRX-35" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="CPUTEz3y_prOQRJcTDRX-1" target="CPUTEz3y_prOQRJcTDRX-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="172" as="sourcePoint" />
+            <mxPoint x="520" y="38" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPUTEz3y_prOQRJcTDRX-36" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="90" as="sourcePoint" />
+            <mxPoint x="270" y="-30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CPUTEz3y_prOQRJcTDRX-37" value="12.quẹt thẻ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
